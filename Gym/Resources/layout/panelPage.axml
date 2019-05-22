@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#009688" >
+
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/scrollView">
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			<TextView
+				android:text="Create my training"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/textView1"
+				android:textAlignment="center"/>
+			<ImageButton
+			android:src="@drawable/rys1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:maxWidth="25px"
+			android:maxHeight="25px"
+			android:id="@+id/imageButtonGuide" />
+			<TextView
+				android:text="Train"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/textView2"
+				android:textAlignment="center"/>
+			<ImageButton
+			android:src="@drawable/rys2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:maxWidth="25px"
+			android:maxHeight="25px"
+			android:id="@+id/imageButtonTraining" />
+			<TextView
+				android:text="Tips"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:id="@+id/textView3"
+				android:textAlignment="center"/>
+			<ImageButton
+			android:src="@drawable/rys3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:maxWidth="25px"
+			android:maxHeight="25px"
+			android:id="@+id/imageButtonTrening" />		
+		</TableLayout>
+	</ScrollView>
+
+	
+</LinearLayout>
